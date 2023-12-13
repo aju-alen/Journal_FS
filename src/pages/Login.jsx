@@ -1,5 +1,13 @@
-import React, {useState} from 'react'
+import React, {useState,memo} from 'react'
 import { Link } from 'react-router-dom';
+
+// To stop the links being rendered (Replace the Link Component with MemoizedLinks) 
+
+// const MemoizedLink = memo(({ to, className, children }) => (
+//   <Link to={to} className={className}>
+//     {children}
+//   </Link>
+// ));
 
 const Login = () => {
     const [formData, setFormData] = useState({

@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import Register from './pages/Register'
 import Login from './pages/Login'
 import Journal from './pages/Journal'
+import Proceedings from './pages/Proceedings'
 
 
 
@@ -44,6 +45,10 @@ function App() {
       {
         path: "/journal",
         element: <Journal />,
+      },,
+      {
+        path: "/proceedings",
+        element: <Proceedings />,
       },
     ]
   }]);

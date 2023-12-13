@@ -36,6 +36,7 @@ const Navbar = () => {
           {/* Navigation links on the right */}
           <div className="flex justify-around items-center space-x-4 text-black font-bold">
             <NavLinksStatic />
+            {currentUser ? <Link to="/" >Submit Manuscript</Link> : <Link to="/login" >Submit Manuscript</Link>}
             {!currentUser ?
               (<span className=" p-2 space-x-2">
                 <Link to="/login" className="  text-lg font-bold border-2 rounded p-2 bg-green-300 hover:border-green-300 hover:bg-white">
@@ -79,6 +80,7 @@ const Navbar = () => {
 
             <div className=' mt-28 flex flex-col items-center text-2xl gap-3 '>
               <NavLinksStatic />
+              {currentUser ? <Link to="/" >Submit Manuscript</Link> : <Link to="/login" >Submit Manuscript</Link>}
               <div>
                 {!currentUser ?
                   (<div className=" flex flex-col gap-6 items-center">

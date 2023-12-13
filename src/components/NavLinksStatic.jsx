@@ -5,10 +5,10 @@ const NavLinksStatic = () => {
     return (
         <>
             <Link to="/">Home</Link>
-            <Link to="/" >Journals</Link>
-            <Link to="/" >Proceedings</Link>
+            <Link to="/journal" >Journals</Link>
+            <Link to="/proceedings" >Proceedings</Link>
             <Link to="/" >Conferences</Link>
-            <Link to="/" >Submit Manuscript</Link>
+            
         </>
     )
 }

@@ -9,9 +9,9 @@ const JournalCategory = () => {
 
                 {journalCategory.map(data => (
                     <React.Fragment key={data.id}>
-                        <Link to='/' className='relative border-4 border-black '>
+                        <Link to='/' className='relative md:border-4 border-black '>
                             <img src={data.imgURL} className=' bg-slate-900 object-cover' />
-                            <div className={`absolute top-0 left-0 w-full h-full  opacity-60`} style={{backgroundColor:`${data.color}`}}></div>
+                            <div className={`absolute md:top-0 md:left-0 w-full h-full  opacity-60`} style={{backgroundColor:`${data.color}`}}></div>
                             <p className='absolute top-2 left-10 z-1 text-xl font-bold'>
                                 {data.title}
                             </p>
@@ -21,7 +21,7 @@ const JournalCategory = () => {
                 
             </div>
             <div className=" p-6 text-center">
-                    <Link to="/" className='font-bold text-lg  border-2 rounded p-3 border-green bg-green-400 '>
+                    <Link to="/journal" className='font-bold text-lg  border-2 rounded p-3 border-green bg-green-400 '>
                         <button>View All Journals</button>
                     </Link>
                 </div>

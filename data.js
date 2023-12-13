@@ -5,50 +5,56 @@ export const journalCategory = [
         imgURL: "https://w7.pngwing.com/pngs/285/139/png-transparent-elephant-animal-africa-transparent-background-white-background.png",
         posts: [],
         color: "red",
+        subject:"Medical Sciences",
         slug:""
 
     },
     {
         id: 2,
-        title: "Journal 222222",
+        title: "AJournal 222222",
         imgURL: "https://w7.pngwing.com/pngs/285/139/png-transparent-elephant-animal-africa-transparent-background-white-background.png",
         posts: [],
         color: "yellow",
+        subject:"Social Sciences",
         slug:""
 
     },
     {
         id: 3,
-        title: "Journal 33333 of science",
+        title: "HJournal 33333 of science",
         imgURL: "https://w7.pngwing.com/pngs/285/139/png-transparent-elephant-animal-africa-transparent-background-white-background.png",
         posts: [],
         color: "pink",
+        subject:"Biological Sciences",
         slug:""
     },
     {
         id: 4,
-        title: "Journal 444444 of science",
+        title: "KJournal 444444 of science",
         imgURL: "https://w7.pngwing.com/pngs/285/139/png-transparent-elephant-animal-africa-transparent-background-white-background.png",
         posts: [],
         color: "brown",
+        subject:"Other Journals",
         slug:""
 
     },
     {
         id: 5,
-        title: "Journal 555555 of science",
+        title: "ZJournal 555555 of science",
         imgURL: "https://w7.pngwing.com/pngs/285/139/png-transparent-elephant-animal-africa-transparent-background-white-background.png",
         posts: [],
         color: "gray",
+        subject:"Other Journals",
         slug:""
 
     },
     {
         id: 6,
-        title: "Journal 666666 of science",
+        title: "DJournal 666666 of science",
         imgURL: "https://w7.pngwing.com/pngs/285/139/png-transparent-elephant-animal-africa-transparent-background-white-background.png",
         posts: [],
         color: "violet",
+        subject:"Other Journals",
         slug:""
 
     },
@@ -58,6 +64,7 @@ export const journalCategory = [
         imgURL: "https://w7.pngwing.com/pngs/285/139/png-transparent-elephant-animal-africa-transparent-background-white-background.png",
         posts: [],
         color: "white",
+        subject:"Other Journals",
         slug:""
 
     }
@@ -66,6 +73,34 @@ export const journalCategory = [
 export const journals = [
     {
         id: 1,
+        title: "Zs Effects of writing a journal and the results of producing a great result for the same. ",
+        authors: ["Mary000", "Simeon 000", "Oluremi 000", "Mutiat 0000"],
+        volNo: "Vol.22(12), pp. 322-328",
+        journalURL: "www.gogo.com",
+        recievedDate: "22 April 2022",
+        acceptedDate: "13 September 2022",
+        publishedDate: "19 December 2022",
+        abstract: "Test THis is not only a test but also a journal that needs to be aligned and well placed. This is also a conference where people can submit and wait for the response.",
+        views: 4,
+        downloads: 0,
+        category: [{
+            id: 3,
+            title: "Journal 33333 of science",
+            imgURL: "https://w7.pngwing.com/pngs/285/139/png-transparent-elephant-animal-africa-transparent-background-white-background.png",
+            posts: [],
+            color: "pink"
+        }],
+        rank:'journal',
+        proceedingTitle:'',
+        proceedingNo:'',
+        slug:''
+
+
+    }
+    ,
+
+    {
+        id: 2,
         title: "The effect of differentiated instruction on gifted students' critical thinking skills and mathematics problem solving attitudes",
         authors: ["Mary Oluwatoyin Avungbeto", "Simeon K. Odetunde", "Oluremi Nurudeen Olaleye", "Mutiat Adetayo Omotayo"],
         volNo: "Vol.22(12), pp. 322-328",
@@ -82,21 +117,25 @@ export const journals = [
             imgURL: "https://w7.pngwing.com/pngs/285/139/png-transparent-elephant-animal-africa-transparent-background-white-background.png",
             posts: [],
             color: "pink"
-        }]
+        }],
+        rank:'proceeding',
+        proceedingTitle:'11th Annual National Conference of the Association for Encouraging Quality Education in Nigeria',
+        proceedingNo:'P39284',
+        slug:''
 
 
     },
 
     {
-        id: 2,
-        title: "Effects of writing a journal and the results of producing a great result for the same. ",
+        id: 3,
+        title: "As Effects of writing a journal and the results of producing a great result for the same. ",
         authors: ["Mary000", "Simeon 000", "Oluremi 000", "Mutiat 0000"],
         volNo: "Vol.22(12), pp. 322-328",
         journalURL: "www.gogo.com",
         recievedDate: "22 April 2022",
         acceptedDate: "13 September 2022",
         publishedDate: "19 December 2022",
-        abstract: "Test TestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest TestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest TestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest vTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest.",
+        abstract: "Test THis is not only a test but also a journal that needs to be aligned and well placed. This is also a conference where people can submit and wait for the response.",
         views: 4,
         downloads: 0,
         category: [{
@@ -105,7 +144,39 @@ export const journals = [
             imgURL: "https://w7.pngwing.com/pngs/285/139/png-transparent-elephant-animal-africa-transparent-background-white-background.png",
             posts: [],
             color: "pink"
-        }]
+        }],
+        rank:'proceeding',
+        proceedingTitle:' 12th Annual National Conference of the Association for Encouraging Quality Education in Nigeria',
+        proceedingNo:'N9893e8',
+        slug:''
+
+
+    }
+    ,
+
+    {
+        id: 4,
+        title: "Aa Effects of writing a journal and the results of producing a great result for the same. ",
+        authors: ["Mary000", "Simeon 000", "Oluremi 000", "Mutiat 0000"],
+        volNo: "Vol.22(12), pp. 322-328",
+        journalURL: "www.gogo.com",
+        recievedDate: "22 April 2022",
+        acceptedDate: "13 September 2022",
+        publishedDate: "19 December 2022",
+        abstract: "Test THis is not only a test but also a journal that needs to be aligned and well placed. This is also a conference where people can submit and wait for the response.",
+        views: 4,
+        downloads: 0,
+        category: [{
+            id: 3,
+            title: "Journal 33333 of science",
+            imgURL: "https://w7.pngwing.com/pngs/285/139/png-transparent-elephant-animal-africa-transparent-background-white-background.png",
+            posts: [],
+            color: "pink"
+        }],
+        rank:'proceeding',
+        proceedingTitle:'16th Annual National Conference of the Association for Encouraging Quality Education in Nigeria',
+        proceedingNo:'A101',
+        slug:''
 
 
     }
