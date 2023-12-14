@@ -10,12 +10,12 @@ const Journal = () => {
 
 
   return (
-    <div className="h-auto w-auto bg-slate-100">
+    <div className="h-auto w-auto ">
       <img src="./images/cloud-main-img.jpg" alt="cloud" className=' w-full md:h-auto' />
-      <h1 className=' text-3xl font-semibold mb-6 text-center'>Journals</h1>
+      <h1 className=' text-3xl font-semibold mb-6 text-center p-4'>Journals</h1>
       <div className="min-h-screen md:flex  gap-6 md:p-10">
-        <div className=" md:w-2/6   rounded ">
-        <h2 className="  text-3xl font-semibold mb-6 text-center">
+        <div className=" md:w-2/6   rounded bg-slate-100 h-2/6 ">
+        <h2 className="  text-3xl font-semibold mb-6 text-center p-4">
         Browse By Subject
         </h2>
           <ListJournalBySubject/>
@@ -26,13 +26,13 @@ const Journal = () => {
             {Object.entries(sortedJournal).map(([key,value]) => (
              <React.Fragment key={key} >
               
-              <div className=" text-left p-2 text-5xl underline  ">
+              <div className=" text-left p-2 text-3xl underline  ">
                 {key}
               </div>
               <div className="">
                 {value.map(data=>(
-                  <Link key={data.id} className=" ml-5 flex flex-col mb-6 font-bold text-blue-500">
-                    
+                  <Link to={`/journal/${data.slug}`} key={data.id} className=" ml-5 flex flex-col mb-6  text-blue-500">
+                    {console.log(data)}
                     {data.title}
                   </Link>
                 ))}

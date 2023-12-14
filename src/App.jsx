@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Navbar from './components/Navbar'
 
@@ -11,6 +9,8 @@ import Register from './pages/Register'
 import Login from './pages/Login'
 import Journal from './pages/Journal'
 import Proceedings from './pages/Proceedings'
+import JournalCards from './pages/JournalCards'
+import Article from './pages/Article'
 
 
 
@@ -45,10 +45,20 @@ function App() {
       {
         path: "/journal",
         element: <Journal />,
-      },,
+      },
       {
         path: "/proceedings",
         element: <Proceedings />,
+      },
+      ,
+      {
+        path: '/journal/:catId',
+        element: <JournalCards />,
+      },
+      ,
+      {
+        path: '/journal/:catId/:articleId',
+        element: <Article />,
       },
     ]
   }]);

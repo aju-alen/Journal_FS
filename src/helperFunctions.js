@@ -24,3 +24,16 @@ export const sortJournalByAZ =(dataToSort)=>{
       return alphabet
       
 }
+
+export const wordLimit = (journalAbstract) => {
+  const string = journalAbstract
+  let finalString = ''
+  const tempArray = string.split(' ')
+  if(tempArray.length >=60){
+      tempArray.splice(60)
+      finalString = tempArray.join(' ') + "..."
+      return finalString
+  }
+  else return string
+  
+}
