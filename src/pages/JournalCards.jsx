@@ -32,7 +32,7 @@ const JournalCards = () => {
                             <span> Article Number: {journal.articleNo}</span>
                             </p>
 
-                        <Link to="/" className='font-bold border-2 rounded p-2 mx-6 border-greenS bg-green-400 md:w-1/6 sm: text-center  mb-4  '>
+                        <Link to={`/journal/${journal.category[0].slug}/${journal.id}`} className='font-bold border-2 rounded p-2 mx-6 border-greenS bg-green-400 md:w-1/6 sm: text-center  mb-4  '>
                             <button>View Article</button>
                         </Link>
                     </div>
